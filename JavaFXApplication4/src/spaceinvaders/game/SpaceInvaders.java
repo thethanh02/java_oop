@@ -170,7 +170,7 @@ public class SpaceInvaders extends Application {
         }
 
         public Shot shoot() {
-            return new Shot(posX + size / 2 - Shot.size / 2, posY - Shot.size);
+            return new Shot(posX + size / 2 - Shot.size / 2,posY - Shot.size);
         }
 
         public void update() {
